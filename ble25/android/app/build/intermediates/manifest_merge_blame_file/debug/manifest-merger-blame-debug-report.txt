@@ -1,0 +1,140 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.ble25"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="33" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/chuonglam/Documents/code/IOT/ble25/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/chuonglam/Documents/code/IOT/ble25/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.BLUETOOTH" />
+12-->/Users/chuonglam/Documents/code/IOT/ble25/android/app/src/main/AndroidManifest.xml:3:1-64
+12-->/Users/chuonglam/Documents/code/IOT/ble25/android/app/src/main/AndroidManifest.xml:3:18-61
+13    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+13-->/Users/chuonglam/Documents/code/IOT/ble25/android/app/src/main/AndroidManifest.xml:4:1-70
+13-->/Users/chuonglam/Documents/code/IOT/ble25/android/app/src/main/AndroidManifest.xml:4:18-67
+14    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+14-->/Users/chuonglam/Documents/code/IOT/ble25/android/app/src/main/AndroidManifest.xml:5:1-69
+14-->/Users/chuonglam/Documents/code/IOT/ble25/android/app/src/main/AndroidManifest.xml:5:18-66
+15    <uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE" />
+15-->/Users/chuonglam/Documents/code/IOT/ble25/android/app/src/main/AndroidManifest.xml:6:1-73
+15-->/Users/chuonglam/Documents/code/IOT/ble25/android/app/src/main/AndroidManifest.xml:6:18-71
+16    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+16-->/Users/chuonglam/Documents/code/IOT/ble25/android/app/src/main/AndroidManifest.xml:7:1-72
+16-->/Users/chuonglam/Documents/code/IOT/ble25/android/app/src/main/AndroidManifest.xml:7:18-69
+17
+18    <uses-feature
+18-->/Users/chuonglam/Documents/code/IOT/ble25/android/app/src/main/AndroidManifest.xml:8:1-82
+19        android:name="android.hardware.bluetooth"
+19-->/Users/chuonglam/Documents/code/IOT/ble25/android/app/src/main/AndroidManifest.xml:8:15-56
+20        android:required="true" />
+20-->/Users/chuonglam/Documents/code/IOT/ble25/android/app/src/main/AndroidManifest.xml:8:57-80
+21    <uses-feature
+21-->/Users/chuonglam/Documents/code/IOT/ble25/android/app/src/main/AndroidManifest.xml:9:1-85
+22        android:name="android.hardware.bluetooth_le"
+22-->/Users/chuonglam/Documents/code/IOT/ble25/android/app/src/main/AndroidManifest.xml:9:15-59
+23        android:required="true" />
+23-->/Users/chuonglam/Documents/code/IOT/ble25/android/app/src/main/AndroidManifest.xml:9:60-83
+24
+25    <uses-permission android:name="android.permission.INTERNET" />
+25-->/Users/chuonglam/Documents/code/IOT/ble25/android/app/src/main/AndroidManifest.xml:10:1-62
+25-->/Users/chuonglam/Documents/code/IOT/ble25/android/app/src/main/AndroidManifest.xml:10:18-60
+26    <uses-permission
+26-->/Users/chuonglam/Documents/code/IOT/ble25/android/app/src/main/AndroidManifest.xml:11:1-12:34
+27        android:name="android.permission.ACCESS_FINE_LOCATION"
+27-->/Users/chuonglam/Documents/code/IOT/ble25/android/app/src/main/AndroidManifest.xml:11:18-72
+28        android:maxSdkVersion="32" />
+28-->/Users/chuonglam/Documents/code/IOT/ble25/android/app/src/main/AndroidManifest.xml:12:5-31
+29    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+29-->/Users/chuonglam/Documents/code/IOT/ble25/android/app/src/main/AndroidManifest.xml:13:1-77
+29-->/Users/chuonglam/Documents/code/IOT/ble25/android/app/src/main/AndroidManifest.xml:13:18-74
+30    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+30-->[com.facebook.flipper:flipper:0.125.0] /Users/chuonglam/.gradle/caches/transforms-3/236929aa564a4c4dfa1b417642a2a2ae/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:5-76
+30-->[com.facebook.flipper:flipper:0.125.0] /Users/chuonglam/.gradle/caches/transforms-3/236929aa564a4c4dfa1b417642a2a2ae/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:22-73
+31
+32    <uses-permission-sdk-23 android:name="android.permission.ACCESS_COARSE_LOCATION" />
+32-->[com.github.Polidea:MultiPlatformBleAdapter:b0272c0fae040cc90f790481c54e8f2d45304339] /Users/chuonglam/.gradle/caches/transforms-3/d36d35d8a05a4e2fa7e249c1b13f1822/transformed/jetified-MultiPlatformBleAdapter-b0272c0fae040cc90f790481c54e8f2d45304339/AndroidManifest.xml:14:5-88
+32-->[com.github.Polidea:MultiPlatformBleAdapter:b0272c0fae040cc90f790481c54e8f2d45304339] /Users/chuonglam/.gradle/caches/transforms-3/d36d35d8a05a4e2fa7e249c1b13f1822/transformed/jetified-MultiPlatformBleAdapter-b0272c0fae040cc90f790481c54e8f2d45304339/AndroidManifest.xml:14:29-85
+33    <uses-permission-sdk-23 android:name="android.permission.ACCESS_FINE_LOCATION" />
+33-->[com.polidea.rxandroidble:rxandroidble:1.7.1] /Users/chuonglam/.gradle/caches/transforms-3/65acd27918151561393ca16f709625f6/transformed/jetified-rxandroidble-1.7.1/AndroidManifest.xml:15:5-86
+33-->[com.polidea.rxandroidble:rxandroidble:1.7.1] /Users/chuonglam/.gradle/caches/transforms-3/65acd27918151561393ca16f709625f6/transformed/jetified-rxandroidble-1.7.1/AndroidManifest.xml:15:29-83
+34
+35    <application
+35-->/Users/chuonglam/Documents/code/IOT/ble25/android/app/src/main/AndroidManifest.xml:22:5-41:19
+36        android:name="com.ble25.MainApplication"
+36-->/Users/chuonglam/Documents/code/IOT/ble25/android/app/src/main/AndroidManifest.xml:23:7-38
+37        android:allowBackup="false"
+37-->/Users/chuonglam/Documents/code/IOT/ble25/android/app/src/main/AndroidManifest.xml:27:7-34
+38        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+38-->[androidx.core:core:1.7.0] /Users/chuonglam/.gradle/caches/transforms-3/08e1174eef2c209ea18090f1084adbcb/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+39        android:debuggable="true"
+40        android:icon="@mipmap/ic_launcher"
+40-->/Users/chuonglam/Documents/code/IOT/ble25/android/app/src/main/AndroidManifest.xml:25:7-41
+41        android:label="@string/app_name"
+41-->/Users/chuonglam/Documents/code/IOT/ble25/android/app/src/main/AndroidManifest.xml:24:7-39
+42        android:roundIcon="@mipmap/ic_launcher_round"
+42-->/Users/chuonglam/Documents/code/IOT/ble25/android/app/src/main/AndroidManifest.xml:26:7-52
+43        android:theme="@style/AppTheme"
+43-->/Users/chuonglam/Documents/code/IOT/ble25/android/app/src/main/AndroidManifest.xml:28:7-38
+44        android:usesCleartextTraffic="true" >
+44-->/Users/chuonglam/Documents/code/IOT/ble25/android/app/src/debug/AndroidManifest.xml:8:9-44
+45        <activity
+45-->/Users/chuonglam/Documents/code/IOT/ble25/android/app/src/debug/AndroidManifest.xml:11:9-111
+46            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+46-->/Users/chuonglam/Documents/code/IOT/ble25/android/app/src/debug/AndroidManifest.xml:11:19-83
+47            android:exported="false" />
+47-->/Users/chuonglam/Documents/code/IOT/ble25/android/app/src/debug/AndroidManifest.xml:11:84-108
+48        <activity
+48-->/Users/chuonglam/Documents/code/IOT/ble25/android/app/src/main/AndroidManifest.xml:29:7-40:18
+49            android:name="com.ble25.MainActivity"
+49-->/Users/chuonglam/Documents/code/IOT/ble25/android/app/src/main/AndroidManifest.xml:30:9-37
+50            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+50-->/Users/chuonglam/Documents/code/IOT/ble25/android/app/src/main/AndroidManifest.xml:32:9-118
+51            android:exported="true"
+51-->/Users/chuonglam/Documents/code/IOT/ble25/android/app/src/main/AndroidManifest.xml:35:9-32
+52            android:label="@string/app_name"
+52-->/Users/chuonglam/Documents/code/IOT/ble25/android/app/src/main/AndroidManifest.xml:31:9-41
+53            android:launchMode="singleTask"
+53-->/Users/chuonglam/Documents/code/IOT/ble25/android/app/src/main/AndroidManifest.xml:33:9-40
+54            android:windowSoftInputMode="adjustResize" >
+54-->/Users/chuonglam/Documents/code/IOT/ble25/android/app/src/main/AndroidManifest.xml:34:9-51
+55            <intent-filter>
+55-->/Users/chuonglam/Documents/code/IOT/ble25/android/app/src/main/AndroidManifest.xml:36:9-39:25
+56                <action android:name="android.intent.action.MAIN" />
+56-->/Users/chuonglam/Documents/code/IOT/ble25/android/app/src/main/AndroidManifest.xml:37:13-65
+56-->/Users/chuonglam/Documents/code/IOT/ble25/android/app/src/main/AndroidManifest.xml:37:21-62
+57
+58                <category android:name="android.intent.category.LAUNCHER" />
+58-->/Users/chuonglam/Documents/code/IOT/ble25/android/app/src/main/AndroidManifest.xml:38:13-73
+58-->/Users/chuonglam/Documents/code/IOT/ble25/android/app/src/main/AndroidManifest.xml:38:23-70
+59            </intent-filter>
+60        </activity>
+61
+62        <provider
+62-->[androidx.emoji2:emoji2:1.0.0] /Users/chuonglam/.gradle/caches/transforms-3/30102b16e64b2b966e993f978f0d77f3/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+63            android:name="androidx.startup.InitializationProvider"
+63-->[androidx.emoji2:emoji2:1.0.0] /Users/chuonglam/.gradle/caches/transforms-3/30102b16e64b2b966e993f978f0d77f3/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+64            android:authorities="com.ble25.androidx-startup"
+64-->[androidx.emoji2:emoji2:1.0.0] /Users/chuonglam/.gradle/caches/transforms-3/30102b16e64b2b966e993f978f0d77f3/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+65            android:exported="false" >
+65-->[androidx.emoji2:emoji2:1.0.0] /Users/chuonglam/.gradle/caches/transforms-3/30102b16e64b2b966e993f978f0d77f3/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+66            <meta-data
+66-->[androidx.emoji2:emoji2:1.0.0] /Users/chuonglam/.gradle/caches/transforms-3/30102b16e64b2b966e993f978f0d77f3/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+67                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+67-->[androidx.emoji2:emoji2:1.0.0] /Users/chuonglam/.gradle/caches/transforms-3/30102b16e64b2b966e993f978f0d77f3/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+68                android:value="androidx.startup" />
+68-->[androidx.emoji2:emoji2:1.0.0] /Users/chuonglam/.gradle/caches/transforms-3/30102b16e64b2b966e993f978f0d77f3/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+69            <meta-data
+69-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/chuonglam/.gradle/caches/transforms-3/168829b299da31b5f39d19c1353bb79f/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+70                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+70-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/chuonglam/.gradle/caches/transforms-3/168829b299da31b5f39d19c1353bb79f/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+71                android:value="androidx.startup" />
+71-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/chuonglam/.gradle/caches/transforms-3/168829b299da31b5f39d19c1353bb79f/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+72        </provider>
+73    </application>
+74
+75</manifest>
