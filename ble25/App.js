@@ -56,7 +56,7 @@ const App = () => {
 
 
 
-  const array = [];
+  const array = [{"mac": "7A:B3:8A:FE:A4:79", "name": "", "rssi": -61}, {"mac": "71:2E:46:C2:F0:B7", "name": "", "rssi": -73}, {"mac": "2A:ED:FE:05:0A:D9", "name": "", "rssi": -75}, {"mac": "09:DF:FD:24:72:DB", "name": "", "rssi": -67}, {"mac": "28:3D:E5:4E:CE:B9", "name": "", "rssi": -63}, {"mac": "15:35:55:37:C8:00", "name": "", "rssi": -65}, {"mac": "31:72:44:A1:63:FC", "name": "", "rssi": -73}, {"mac": "7D:34:C5:1F:45:98", "name": "", "rssi": -68}, {"mac": "7C:7F:5F:C1:6B:11", "name": "", "rssi": -70}, {"mac": "0B:44:2A:22:49:92", "name": "", "rssi": -80}, {"mac": "04:AF:0C:9A:BC:D5", "name": "", "rssi": -49}, {"mac": "44:D6:C2:C0:9E:96", "name": "", "rssi": -48}, {"mac": "5F:52:A1:DE:B6:C9", "name": "", "rssi": -48}, {"mac": "01:79:DA:6B:B1:0B", "name": "", "rssi": -73}, {"mac": "C2:86:F8:7A:53:20", "name": "", "rssi": -76}, {"mac": "7A:83:FF:AB:63:26", "name": "", "rssi": -73}, {"mac": "BC:14:85:C4:75:7A", "name": "", "rssi": -77}, {"mac": "4E:07:A6:7E:A8:8A", "name": "", "rssi": -54}, {"mac": "29:2E:1E:C7:2E:AA", "name": "", "rssi": -85}, {"mac": "39:70:1D:C7:D3:98", "name": "", "rssi": -73}, {"mac": "56:62:84:2C:87:8D", "name": "", "rssi": -92}, {"mac": "79:83:2E:76:59:00", "name": "", "rssi": -78}, {"mac": "DA:0E:69:41:3D:EA", "name": "", "rssi": -75}, {"mac": "5F:DB:BA:8F:51:67", "name": "", "rssi": -83}, {"mac": "30:BE:E9:CF:AD:F9", "name": "", "rssi": -83}, {"mac": "3E:BE:0D:7E:B9:88", "name": "", "rssi": -89}, {"mac": "53:BE:F2:9A:73:B6", "name": "", "rssi": -84}, {"mac": "E0:E0:96:C7:3C:B1", "name": "", "rssi": -76}, {"mac": "03:E9:F4:4C:57:FE", "name": "", "rssi": -91}];
   const eventEmitter = new NativeEventEmitter();
   eventEmitter.addListener();
 
@@ -70,7 +70,7 @@ const App = () => {
 
   useEffect(() => {
     handleAndroidPermissions()
-    startScan();
+    // startScan();
   }, []);
 
 
@@ -160,6 +160,7 @@ const App = () => {
       // console.log('run');
       // setDevices(prevDevices => [...prevDevices, { name: name || '', rssi: rssi || '', mac }]);
     }
+    console.log(array);
     setDevices(array)
     // console.log('scan');
 
@@ -237,6 +238,7 @@ const App = () => {
 
 const connectToDevice = async (device) => {
   try {
+    setIsScanning(true)
     const deviceConnection = await manager.connectToDevice(device.mac);
     // setConnectedDevice(deviceConnection);
     setDeviceSelected(deviceConnection)
@@ -326,14 +328,11 @@ const startStreamingData = async (device) => {
       </View>
       <Text>Weight : {weight}</Text>
         {isScanning ? 
-        
-        <Text style={{
-          textAlign:'center'
-        }}>Scanning...</Text>
+       <TouchableOpacity></TouchableOpacity>
         
         : 
         <FlatList
-        data={devices}
+        data={array}
         renderItem={renderItem}
         keyExtractor={(item, index) => item.mac}
       />}
